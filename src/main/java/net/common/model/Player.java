@@ -1,3 +1,5 @@
+package net.common.model;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.NamedAttributeNode;
@@ -14,4 +16,14 @@ public class Player {
     private Integer Height;
     private Integer Experience;
     private Integer Country;
+
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
